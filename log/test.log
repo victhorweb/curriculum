@@ -1,0 +1,1099 @@
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (85.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (35.8ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (68.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (39.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (73.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (53.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (63.9ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (84.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (76.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (57.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `cities` (`id`, `states_id`, `uf`, `name`) VALUES (NULL, 1, 'MyString', 'MyString')[0m
+Mysql2::Error: Column 'id' cannot be null: INSERT INTO `cities` (`id`, `states_id`, `uf`, `name`) VALUES (NULL, 1, 'MyString', 'MyString')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.1ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.0ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (70.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `cities` (`id`, `states_id`, `uf`, `name`) VALUES (NULL, 1, 'MyString', 'MyString')[0m
+Mysql2::Error: Column 'id' cannot be null: INSERT INTO `cities` (`id`, `states_id`, `uf`, `name`) VALUES (NULL, 1, 'MyString', 'MyString')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (60.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (78.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (83.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (87.9ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (77.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'wq', 'MyString')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+Mysql2::Error: Duplicate entry '0' for key 'id': INSERT INTO `cities` (`states_id`, `uf`, `name`) VALUES (1, 'MyString', 'MyString')
+  [1m[36m (103.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'wq', 'MyString', '2013-07-23 17:49:08', '2013-07-23 17:49:08', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'MyString', 'MyString', '2013-07-23 17:49:08', '2013-07-23 17:49:08', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `universities`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('Uni jogos', 1, 1, '98745641', 'rua legal e bunita ed mora ', 'vila legal', '016023245', '2013-07-23 17:49:08', '2013-07-23 17:49:08', 135138680)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('uni legal', 2, 4, '99874251', '7841236', 'gasdfgfsds', 'afdgsdfg', '2013-07-23 17:49:08', '2013-07-23 17:49:08', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `states`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `states` () VALUES ()[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `states` () VALUES ()
+  [1m[36m (87.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'wq', 'MyString', '2013-07-23 17:52:26', '2013-07-23 17:52:26', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'MyString', 'MyString', '2013-07-23 17:52:26', '2013-07-23 17:52:26', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `universities`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('Uni jogos', 1, 1, '98745641', 'rua legal e bunita ed mora ', 'vila legal', '016023245', '2013-07-23 17:52:27', '2013-07-23 17:52:27', 135138680)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('uni legal', 2, 4, '99874251', '7841236', 'gasdfgfsds', 'afdgsdfg', '2013-07-23 17:52:27', '2013-07-23 17:52:27', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `states`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `states` () VALUES ()[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `states` () VALUES ()
+  [1m[36m (74.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUniversity Load (0.3ms)[0m  SELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'wq', 'MyString', '2013-07-23 17:53:35', '2013-07-23 17:53:35', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'MyString', 'MyString', '2013-07-23 17:53:35', '2013-07-23 17:53:35', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `universities`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('Uni jogos', 1, 1, '98745641', 'rua legal e bunita ed mora ', 'vila legal', '016023245', '2013-07-23 17:53:35', '2013-07-23 17:53:35', 135138680)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('uni legal', 2, 4, '99874251', '7841236', 'gasdfgfsds', 'afdgsdfg', '2013-07-23 17:53:35', '2013-07-23 17:53:35', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `states`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `states` () VALUES ()[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `states` () VALUES ()
+  [1m[36m (53.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUniversity Load (0.3ms)[0m  SELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'wq', 'MyString', '2013-07-23 17:57:29', '2013-07-23 17:57:29', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'MyString', 'MyString', '2013-07-23 17:57:29', '2013-07-23 17:57:29', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `universities`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('Uni jogos', 1, 1, '98745641', 'rua legal e bunita ed mora ', 'vila legal', '016023245', '2013-07-23 17:57:29', '2013-07-23 17:57:29', 135138680)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('uni legal', 2, 4, '99874251', '7841236', 'gasdfgfsds', 'afdgsdfg', '2013-07-23 17:57:29', '2013-07-23 17:57:29', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `states`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `states` () VALUES ()[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `states` () VALUES ()
+  [1m[36m (94.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUniversity Load (0.3ms)[0m  SELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUniversity Load (0.2ms)[0m  [1mSELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'wq', 'MyString', '2013-07-23 17:57:37', '2013-07-23 17:57:37', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'MyString', 'MyString', '2013-07-23 17:57:37', '2013-07-23 17:57:37', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `universities`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('Uni jogos', 1, 1, '98745641', 'rua legal e bunita ed mora ', 'vila legal', '016023245', '2013-07-23 17:57:37', '2013-07-23 17:57:37', 135138680)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('uni legal', 2, 4, '99874251', '7841236', 'gasdfgfsds', 'afdgsdfg', '2013-07-23 17:57:37', '2013-07-23 17:57:37', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `states`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `states` () VALUES ()[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `states` () VALUES ()
+  [1m[36m (38.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUniversity Load (0.3ms)[0m  SELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUniversity Load (0.2ms)[0m  [1mSELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'wq', 'MyString', '2013-07-23 17:58:07', '2013-07-23 17:58:07', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'MyString', 'MyString', '2013-07-23 17:58:07', '2013-07-23 17:58:07', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `universities`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('Uni jogos', 1, 1, '98745641', 'rua legal e bunita ed mora ', 'vila legal', '016023245', '2013-07-23 17:58:07', '2013-07-23 17:58:07', 135138680)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('uni legal', 2, 4, '99874251', '7841236', 'gasdfgfsds', 'afdgsdfg', '2013-07-23 17:58:07', '2013-07-23 17:58:07', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `states`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `states` () VALUES ()[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `states` () VALUES ()
+  [1m[36m (72.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUniversity Load (0.3ms)[0m  SELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUniversity Load (0.2ms)[0m  [1mSELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'wq', 'MyString', '2013-07-23 17:58:56', '2013-07-23 17:58:56', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'MyString', 'MyString', '2013-07-23 17:58:56', '2013-07-23 17:58:56', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `universities`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('Uni jogos', 1, 1, '98745641', 'rua legal e bunita ed mora ', 'vila legal', '016023245', '2013-07-23 17:58:56', '2013-07-23 17:58:56', 135138680)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('uni legal', 2, 4, '99874251', '7841236', 'gasdfgfsds', 'afdgsdfg', '2013-07-23 17:58:56', '2013-07-23 17:58:56', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `states`
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `states` () VALUES ()[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `states` () VALUES ()
+  [1m[36m (78.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUniversity Load (0.3ms)[0m  SELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUniversity Load (0.1ms)[0m  [1mSELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Unable to load state, underlying cause No such file to load -- state 
+
+ /usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:10:in `<class:TestCase>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/test_helper.rb:5:in `<top (required)>'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `require'
+/home/bootcamp/Desktop/Projeto3.0/curriculum/test/unit/city_test.rb:1:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `require'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `select'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rake-10.1.0/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `cities`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'wq', 'MyString', '2013-07-23 17:59:58', '2013-07-23 17:59:58', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `cities` (`states_id`, `uf`, `name`, `created_at`, `updated_at`, `id`) VALUES (1, 'MyString', 'MyString', '2013-07-23 17:59:58', '2013-07-23 17:59:58', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `universities`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('Uni jogos', 1, 1, '98745641', 'rua legal e bunita ed mora ', 'vila legal', '016023245', '2013-07-23 17:59:58', '2013-07-23 17:59:58', 135138680)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `universities` (`name`, `state_id`, `city_id`, `phone`, `address`, `district`, `zip_code`, `created_at`, `updated_at`, `id`) VALUES ('uni legal', 2, 4, '99874251', '7841236', 'gasdfgfsds', 'afdgsdfg', '2013-07-23 17:59:58', '2013-07-23 17:59:58', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `states`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `states` () VALUES ()[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `states` () VALUES ()
+  [1m[36m (58.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUniversity Load (0.3ms)[0m  SELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUniversity Load (0.2ms)[0m  [1mSELECT `universities`.* FROM `universities` WHERE `universities`.`id` = 135138680 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
