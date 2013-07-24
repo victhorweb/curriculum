@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  states_id: 1
+  uf: 'wq'
+  name: 'MyString'
+
+two:
+  states_id: 1
+  uf: MyString
+  name: MyString

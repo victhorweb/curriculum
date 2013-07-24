@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+admin:
+  name: 'Uni jogos'
+  state_id: 1
+  city_id: 1
+  phone: '98745641'
+  address: 'rua legal e bunita ed mora '
+  district: 'vila legal'
+  zip_code: '016023245'
+
+two:
+  name: 'uni legal'
+  state_id: 2
+  city_id: 4
+  phone: '99874251'
+  address: '7841236'
+  district: 'gasdfgfsds'
+  zip_code: 'afdgsdfg'

@@ -1,0 +1,35 @@
+<h1>Listing universities</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>State</th>
+    <th>City</th>
+    <th>Phone</th>
+    <th>Address</th>
+    <th>District</th>
+    <th>Zip code</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @universities.each do |university| %>
+  <tr>
+    <td><%= university.name %></td>
+    <td><%= university.state_id %></td>
+    <td><%= university.city_id %></td>
+    <td><%= university.phone %></td>
+    <td><%= university.address %></td>
+    <td><%= university.district %></td>
+    <td><%= university.zip_code %></td>
+    <td><%= link_to 'Show', university %></td>
+    <td><%= link_to 'Edit', edit_university_path(university) %></td>
+    <td><%= link_to 'Destroy', university, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New University', new_university_path %>
