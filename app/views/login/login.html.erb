@@ -1,0 +1,15 @@
+<h1>Autenticação no sistema</h1>
+<p id="notice"><%= notice %></p>
+<%= form_tag "login" do %>
+<p>
+<label for="email">E-mail</label>
+<input type="text" id="email" name="email"/>
+</p>
+<p>
+<label for="password">Senha</label>
+<input type="password" id="password" name="password"/>
+</p>
+<p>
+<input type="submit" value="Autenticar"/>
+</p>
+<% end %>

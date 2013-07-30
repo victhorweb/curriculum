@@ -1,12 +1,18 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'haml'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'rspec-rails', :group =>[:test, :development]
 gem 'mysql2'
-
+group :test do
+	gem 'factory_girl_rails'
+	gem "capybara"
+	gem "guard-rspec"
+end
 
 # Gems used only for assets and not required
 # in production environments by default.

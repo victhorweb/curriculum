@@ -1,0 +1,33 @@
+<%= form_for(@vacant) do |f| %>
+  <% if @vacant.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@vacant.errors.count, "error") %> prohibited this vacant from being saved:</h2>
+
+      <ul>
+      <% @vacant.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="field">
+    <%= f.label :date_end %><br />
+    <%= f.date_select :date_end %>
+  </div>
+  <div class="field">
+    <%= f.label :sector_id %><br />
+    <%= f.select :sector_id, @sector %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Question:</b>
+  <%= @essay.question %>
+</p>
+
+<p>
+  <b>Skill:</b>
+  <%= @essay.skill_id %>
+</p>
+
+<p>
+  <b>Level:</b>
+  <%= @essay.level_id %>
+</p>
+
+<p>
+  <b>Reply:</b>
+  <%= @essay.reply %>
+</p>
+
+
+<%= link_to 'Edit', edit_essay_path(@essay) %> |
+<%= link_to 'Back', essays_path %>

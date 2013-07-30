@@ -1,4 +1,44 @@
 Curriculum::Application.routes.draw do
+
+  resources :users
+
+
+  resources :cities
+
+
+  resources :states do
+    member do
+      get :cities
+    end
+  end
+
+  
+  resources :essays
+
+
+  resources :levels
+
+
+  resources :skills
+
+
+  resources :vacants
+
+
+  get "login/login"
+  post "login/login"
+  get "login/logout"
+  post "login/logout"
+  resources :users
+  resources :sectors
+
+
+  resources :people
+
+
+  resources :courses
+
+
   resources :universities
 
   # The priority is based upon order of creation:
@@ -57,4 +97,5 @@ Curriculum::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
+  root :to => 'login#login'
 end

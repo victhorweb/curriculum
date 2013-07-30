@@ -1,4 +1,5 @@
 class UniversitiesController < ApplicationController
+  before_filter :logged?
   before_filter :load_states,:load_cities, only: [:new,:create,:edit,:update]
   # GET /universities
   # GET /universities.json
@@ -81,6 +82,7 @@ class UniversitiesController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
   def load_states
     @states = States.for_select
   end
