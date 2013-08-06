@@ -1,0 +1,48 @@
+/ !!!
+/ %html
+/   %head
+/     %title Curriculum
+/     = stylesheet_link_tag    "application", :media => "all"
+/     = javascript_include_tag "application"
+/     = csrf_meta_tags
+
+
+/   %body
+/  	%header
+/  		%h1 mãe
+/       .sideBar
+/       / %ul
+/       /     %li
+/       /     %h3 Menu de cadastro
+/       /     %li
+/       /     %a{:href => "/people"} Curriculos
+/       /     %li
+/       /     %a{:href => "/sectors"} Setores
+/       /     %li
+/       /     %a{:href => "/essays"} Perguntas
+/       /     %li
+/       /     %a{:href => "/skills"} Habilidades
+/       /     %li
+/       /     %a{:href => "/levels"} Níveis
+/       /     %li
+/       /     %a{:href => "/vacants"} Vagas
+/     .yield
+/       = yield
+
+!!! html5
+%html
+	%title Projeto Curriculo
+        =stylesheet_link_tag "application", :media=>"all"
+        =javascript_include_tag "application"
+        =csrf_meta_tags
+      %header
+	%body
+	  %h1 Curriculum
+	  %nav
+	    %ul
+		%li= link_to "Inicial", "/"
+         %section#main
+	     %p.notice=notice
+	   =yield
+      %footer
+	  ass Victhor

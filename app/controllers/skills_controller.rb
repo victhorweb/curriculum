@@ -86,4 +86,7 @@ class SkillsController < ApplicationController
   def load_sectors
     @sector = Sector.for_select
   end
+
+def list_skills
+  @skill = Skill.all
 end

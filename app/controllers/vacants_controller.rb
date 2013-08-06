@@ -3,19 +3,30 @@ class VacantsController < ApplicationController
   before_filter :load_sectors, only: [:new,:create,:edit,:update]
   # GET /vacants
   # GET /vacants.json
+
+  def teste
+  end
+
   def index
     @vacants = Vacant.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @vacants }
     end
   end
 
+ def vacants_avaliable
+    @vacants = Person.find(session[:id]).sector.vacants
+      respond_to do |format|
+      format.html
+    end
+  end
+
   # GET /vacants/1
   # GET /vacants/1.json
   def show
-    @vacant = Vacant.find(params[:id])
+    @vacants = Vacant.all
+    #@vacant = Vacant.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -82,7 +93,7 @@ class VacantsController < ApplicationController
       format.json { head :no_content }
     end
   end
-  
+
   def load_sectors
     @sector = Sector.for_select
   end

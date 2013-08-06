@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projeto Curriculo</title>
+<%= stylesheet_link_tag "application", :media => "all" %>
+<%= javascript_include_tag "application" %>
+<%= csrf_meta_tags %>
+</head>
+<body>
+<div class="body">
+  <div class="header">
+  <img src="app/assets/images/ImgHeader.png" />
+  <div class="menu">
+    <img src="app/assets/images/home.png" />
+    <nav>
+<ul>
+  <li><%= link_to "Inicial", "/" %></li>
+  <li><%= link_to "Seu cadastro", "/indexpub/" %></li>
+  <li><%= link_to "Vagas do seu perfil", "/curriculum/vacants/avaliable/" %></li>
+  <li><%= link_to "Todas as vagas", "/curriculum/vacants/" %></li>
+</ul>
+</nav>
+ </div>
+  </div>
+
+  <div class="center">
+   <section id="main">
+      <%= yield %>
+  </section>
+ </div>
+
+  <div class="footer">
+    <img src="app/assets/images/ImgFooter.jpg" />
+ </div>
+</div>
+
+<footer>
+Ass Victhor
+</footer>
+</body>
+</html>

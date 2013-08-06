@@ -1,7 +1,8 @@
 class PeopleController < ApplicationController
-   before_filter :logged?
+   #before_filter :logged?
    before_filter :load_states,:load_cities,:load_university,:load_course,:load_sectors, only: [:new,:create,:edit,:update]
-  
+   before_filter :logged?
+   layout 'pub'
   # GET /people
   # GET /people.json
   def index
@@ -11,7 +12,14 @@ class PeopleController < ApplicationController
       format.html # index.html.erb
       format.json { render json: @people }
     end
-    
+
+  end
+
+ def indexpub
+    @person = Person.find(session[:id])
+    respond_to do |format|
+    format.html # index.html.erb
+    end
   end
 
   # GET /people/1
@@ -96,7 +104,7 @@ class PeopleController < ApplicationController
   def load_university
     @university = University.for_select
   end
-  
+
   def load_course
     @course = Course.for_select
   end

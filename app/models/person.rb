@@ -13,14 +13,17 @@ class Person < ActiveRecord::Base
              format: {with:/(.*?)\.(jpg|jpeg|gif|pdf|doc)$/}
   validates :image, presence: true,
              format: {with:/(.*?)\.(jpg|jpeg|png|gif)$/}
-  validates :email, presence: true, 
+  validates :email, presence: true,
             format: {with:/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/}
-  
+
    # belongs_to :state
    belongs_to :city
    belongs_to :university
    belongs_to :course
    belongs_to :sector
+   has_many :skill_levels
+   has_many :vacants, :through=>:skill_levels
+
 
   def plain_password=(password)
     return if password.blank?
@@ -30,7 +33,7 @@ class Person < ActiveRecord::Base
   def plain_password
     ""
   end
-  
+
   def self.encrypt_password(password)
     Digest::SHA1.hexdigest("123_#{password}_456")
   end

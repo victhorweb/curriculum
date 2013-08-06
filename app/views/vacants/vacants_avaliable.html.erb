@@ -1,0 +1,29 @@
+<h1>Listing vacants</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Date end</th>
+    <th>Sector</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @vacants.each do |vacant| %>
+  <tr>
+    <td><%= vacant.title %></td>
+    <td><%= vacant.description %></td>
+    <td><%= vacant.date_end %></td>
+    <td><%= vacant.sector_id %></td>
+    <td><%= link_to 'show', vacant %></td>
+    <td>Inscreva-se</td>
+    <td></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+

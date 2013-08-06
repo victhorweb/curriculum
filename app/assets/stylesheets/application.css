@@ -1,13 +1,40 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the top of the
- * compiled file, but it's generally better to create a new file per style scope.
- *
- *= require_self
- *= require_tree .
- */
+/*body{
+background-color: #000;
+}
+
+.body{
+background: url(image-path('body.jpg')) no-repeat;
+margin-top:-10px;
+width: 900px;
+display: block;
+margin: 0px 20% 0px 20%;
+height: 100%;
+}
+
+.center{
+margin-top:-10px;
+margin-left:10px;
+margin-rigth:7px;
+width:883px;
+background-color: #000;
+display:block;
+background: url('app/assets/images/background.jpg');
+}
+
+.footer{
+margin-left:10px;
+margin-rigth:7px;
+width:883px;
+display:block;
+footer: 0px;
+}
+
+.menu{
+margin-left:10px;
+margin-rigth:7px;
+height:36px;
+width:872px;
+margin-botton: -10;
+background: url('app/assets/images/laranja.jpg') repeat-x;
+padding: 5px;
+}*/

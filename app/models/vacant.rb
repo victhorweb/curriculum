@@ -5,6 +5,13 @@ class Vacant < ActiveRecord::Base
   validates :title,presence: true
   validates :date_end, presence: true
   validate :age_limit
+  has_many :skills, :through =>:sectors
+
+  scope :next, -> { where(["date_end>?",Time.now])}
+
+  def valid_today?
+    self.date_end > Date.today
+  end
 
   # def date_validate()
   # 	if :date_end < Date.today

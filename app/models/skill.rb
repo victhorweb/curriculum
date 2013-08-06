@@ -4,6 +4,6 @@ class Skill < ActiveRecord::Base
   validates :description ,presence: true
 
   belongs_to :sector
-
+  has_many :skill_levels
 
 end

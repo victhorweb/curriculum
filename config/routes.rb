@@ -2,9 +2,7 @@ Curriculum::Application.routes.draw do
 
   resources :users
 
-
   resources :cities
-
 
   resources :states do
     member do
@@ -12,35 +10,55 @@ Curriculum::Application.routes.draw do
     end
   end
 
-  
   resources :essays
-
 
   resources :levels
 
-
   resources :skills
 
+  get "vacants/vacant_avaliable" => "vacants#vacants_avaliable"
+  get "skills_level/inscrition" => "'skill_level#inscrition"
 
   resources :vacants
-
 
   get "login/login"
   post "login/login"
   get "login/logout"
   post "login/logout"
-  resources :users
-  resources :sectors
 
+  get "indexpub" => "people#indexpub"
+
+  match "autenticar" => "login/login#login"
+  match "sair" => "login#logout"
+
+  resources :skill_level
+  get "skills_level/new"  => 'SkillLevel#new', as: :new_skill_level
+
+  resources :users
+
+  resources :sectors
 
   resources :people
 
-
   resources :courses
-
 
   resources :universities
 
+ namespace :curriculum do
+     resources :people
+     get "vacants/avaliable" => "vacants#vacants_avaliable"
+     get "SkillLevel/inscrition/:id" => "SkillLevel#index"
+     resources :skill_level
+     resources :vacants , only:[:index,:new,:create,:edit,:update,:vacants_avaliable,:show]
+     get "vacants/edit/:id" => "vacants#edit"
+     get "vacants/index" => "vacants#index"
+     get "vacants/show/:id" => "vacants#show"
+
+ end
+
+
+ #get "vacants/teste" => "vacants#teste"
+  root :to => 'login#login'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -97,5 +115,5 @@ Curriculum::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
-  root :to => 'login#login'
+
 end

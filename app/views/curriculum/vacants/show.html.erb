@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+
+<p>
+  <b>TItulo</b>
+  <%= @vacant.title %>
+</p>
+
+<p>
+  <b>Descrição:</b>
+  <%= @vacant.description %>
+</p>
+
+<p>
+  <b>Data para o termino:</b>
+  <%= @vacant.date_end %>
+</p>
+
+<p>
+  <b>Setor:</b>
+  <%= @vacant.sector_id %>
+</p>
+
+<p>
+<%= @vacant.sector.skills.each  do |f|%>
+<strong><%= f.name%> </strong>- <%= f.description%> </br>
+<%end%>
+</p>
+
+<%= link_to 'Voltar', "/curriculum/vacants" %>

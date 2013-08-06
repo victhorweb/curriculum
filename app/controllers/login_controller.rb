@@ -1,4 +1,6 @@
 class LoginController < ApplicationController
+ layout "pub"
+
   def login
 	if request.post?
 	    email= params[:email]
@@ -8,7 +10,7 @@ class LoginController < ApplicationController
       flash[:notice] = "Informe email e senha"
       return
     end
-  
+
     if email.blank?
       flash[:notice] = "Informe o email"
       return
@@ -18,17 +20,17 @@ class LoginController < ApplicationController
 	  flash[:notice] = "Informe a senha"
 	  return
 	end
-    
-    user = User.auth(email,password)
+
+    user = Person.auth(email,password)
 	  if !user
 	  flash[:notice] = "Falha no login"
 	  return
 	end
 
-	flash[:notice] = "Bem-vindo!"
+    flash[:notice] = "Bem-vindo!"
     session[:id] = user.id
     session[:email] = user.email
-    redirect_to "/users/"
+    redirect_to "/vacants/vacant_avaliable/"
     end
   end
   def logout

@@ -31,18 +31,18 @@
 
 !!! html5
 %html
-	%title Projeto Curriculo
-=stylesheet_link_tag "application", :media=>"all"
-=javascript_include_tag "application"
-=csrf_meta_tags
-      %header
-	%body
-	  %h1 Curriculum
-	  %nav
-	    %ul
-		%li= link_to "Inicial", "/"
-         %section#main
-	     %p.notice=notice
-	   =yield
-      %footer
-	  ass VIcthor
+  %title Projeto Curriculo
+  =stylesheet_link_tag "application", :media=>"all"
+  =javascript_include_tag "application"
+  =csrf_meta_tags
+  %header
+  %body
+    %h1 Curriculum
+    %nav
+      %li= link_to "Inicial", "/"
+    %section#main
+      %p.notice=notice
+      %div#yield
+        =yield
+  %footer
+    ass Victhor
