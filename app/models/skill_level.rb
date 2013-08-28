@@ -1,7 +1,7 @@
 # encoding: utf-8
-
 class SkillLevel < ActiveRecord::Base
    attr_accessible :person_id, :skill_id, :level_id,:vacant_id
+
    belongs_to :person
    belongs_to :skill
    belongs_to :level

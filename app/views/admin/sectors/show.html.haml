@@ -1,0 +1,10 @@
+%p#notice= notice
+%p
+  %b Nome
+  = @sector.name
+%p
+  %b Descrição
+  = @sector.description
+= link_to 'Edit', edit_sector_path(@sector)
+|
+#{link_to 'Back', sectors_path}

@@ -1,119 +1,71 @@
 Curriculum::Application.routes.draw do
+     root :to => 'vacants#index'
 
-  resources :users
+     post "avaliable/finalization" => "avaliables#finalization"
+     post "avaliable/" => "avaliables#index"
+     post "autenticar/login" => "login#login"
 
-  resources :cities
-
-  resources :states do
-    member do
-      get :cities
-    end
-  end
-
-  resources :essays
-
-  resources :levels
-
-  resources :skills
-
-  get "vacants/vacant_avaliable" => "vacants#vacants_avaliable"
-  get "skills_level/inscrition" => "'skill_level#inscrition"
-
-  resources :vacants
-
-  get "login/login"
-  post "login/login"
-  get "login/logout"
-  post "login/logout"
-
-  get "indexpub" => "people#indexpub"
-
-  match "autenticar" => "login/login#login"
-  match "sair" => "login#logout"
-
-  resources :skill_level
-  get "skills_level/new"  => 'SkillLevel#new', as: :new_skill_level
-
-  resources :users
-
-  resources :sectors
-
-  resources :people
-
-  resources :courses
-
-  resources :universities
-
- namespace :curriculum do
-     resources :people
      get "vacants/avaliable" => "vacants#vacants_avaliable"
-     get "SkillLevel/inscrition/:id" => "SkillLevel#index"
-     resources :skill_level
-     resources :vacants , only:[:index,:new,:create,:edit,:update,:vacants_avaliable,:show]
+     get "cadastro/" => "people#new"
+     get "autenticar/" => "login#login"
+     get "avaliable/" => "avaliables#index", as: :show_avaliable
+     get "SkillLevel/inscrition/:id" => "SkillLevels#index", as: :show_inscrition
      get "vacants/edit/:id" => "vacants#edit"
      get "vacants/index" => "vacants#index"
      get "vacants/show/:id" => "vacants#show"
 
- end
+     resources :people
+     resources :skill_level
+     resources :vacants , only:[:index,:new,:create,:edit,:update,:vacants_avaliable,:show]
+     resources :essays
+     resources :skills
+     resources :levels
+     resources :users
 
+ namespace :admin do
 
- #get "vacants/teste" => "vacants#teste"
-  root :to => 'login#login'
-  # The priority is based upon order of creation:
-  # first created -> highest priority.
+    post "/vacants/filled_filter" =>"vacants#filled_filter"
+    get "vacants/filled" => "vacants#filled"
+    get "vacants/vacant_avaliable" => "vacants#vacants_avaliable"
+    get "skills_level/inscrition" => "'skill_level#inscrition"
+    get "login/login" =>"login#login"
+    get "login/logout" =>"login#logout"
+    post "login/logout" =>"login#logout"
+    post "/people/status" => "people#status"
 
-  # Sample of regular route:
-  #   match 'products/:id' => 'catalog#view'
-  # Keep in mind you can assign values other than :controller and :action
+    match "/autenticar/" => "/login/#login"
+    match "/sair/" => "login#logout"
+    get "skills_level/new"  => 'SkillLevel#new', as: :new_skill_level
 
-  # Sample of named route:
-  #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
-  # This route can be invoked with purchase_url(:id => product.id)
+    post "login/login" =>"login#login"
+    post "people/avaliable" => "people#avaliable"
 
-  # Sample resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
+    resources :skill_level
+    resources :vacants
+    resources :skills
+    resources :essays
+    resources :users
+    resources :cities
+    resources :states do
+      member do
+        get :cities
+      end
+    end
+    get "/"=>"login#login"
+    resources :levels
+    resources :users
+    resources :sectors
+    resources :people
 
-  # Sample resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
-  #
-  #     collection do
-  #       get 'sold'
-  #     end
-  #   end
+    resources :courses
+    resources :universities
 
-  # Sample resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
+end
 
-  # Sample resource route with more complex sub-resources
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', :on => :collection
-  #     end
-  #   end
+     get "login/login" =>"login#login"
+     post "login/login" =>"login#login"
+     get "login/logout" =>"login#logout"
+     post "login/logout" =>"login#logout"
 
-  # Sample resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
-
-  # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
-
-  # See how all your routes lay out with "rake routes"
-
-  # This is a legacy wild controller route that's not recommended for RESTful applications.
-  # Note: This route will make all actions in every controller accessible via GET requests.
-  # match ':controller(/:action(/:id))(.:format)'
 
 end

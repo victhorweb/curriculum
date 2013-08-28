@@ -1,0 +1,36 @@
+-@avaliable=0
+.imagePersonShow
+  =image_tag @person.image.url
+
+.dados
+
+  %p
+    %b Nome:
+    = @person.name
+  %p
+    %b Telefone:
+    = @person.phone
+  %p
+    %b Celular:
+    = @person.mobile_phone
+  %p
+    %b Universidade:
+    = @person.university.name
+  %p
+    %b Curso:
+    = @person.course.name
+
+.persongrafic
+  %p
+    %b State:
+    = @person.city.uf
+  %b Cidade:
+  = @person.city.name
+  %p
+    %b Contato por video-conferencia:
+    = @person.video_conf
+  %p
+    Experiências proficionais:
+    %br
+    =@person.curriculum
+

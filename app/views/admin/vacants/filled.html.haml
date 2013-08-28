@@ -1,0 +1,55 @@
+%h1
+  Filtro de pesquisa
+.optionStatus
+  =form_tag("/admin/vacants/filled_filter") do
+    %span
+      Status:
+    %select{name: "statu" , id: "statu"}
+      -@status.each do |statu|
+        %option{value: "#{statu.id}"}
+          =statu.name
+
+    %span
+      Setor:
+    %select{name: "sector" , id: "sector"}
+      -@sectors.each do |sector|
+        %option{value: "#{sector.id}"}
+          =sector.name
+
+    %span
+      Vagas:
+    %select{name: "vacant" , id: "vacant"}
+      -@vacants.each do |vacant|
+        %option{value: "#{vacant.id}"}
+          =vacant.title
+    %input{:type => "submit", :value => "Pesquisar"}
+
+
+
+%h2
+  Vagas preenchidas
+-@vacants.each do |vacant|
+  %h3
+    Lista de todos os inscritos para as Vagas
+  %h3
+    %strong
+      =vacant.title
+  Data para o termino da vaga
+  =vacant.date_end
+  -@inscritions.where(vacant_id: vacant.id).each do |inscrition|
+    .personAdmin
+      .photoPersonAdmin
+        =image_tag inscrition.person.image.url(:thumb)
+      %p
+        Nome:
+        =inscrition.person.name
+        %br
+        Telefone:
+        =inscrition.person.phone
+        %br
+        Curso:
+        =inscrition.person.course.name
+        %br
+        Status:
+        =inscrition.status.name
+      = link_to 'Ver mais', "/admin/people/#{inscrition.person_id}" , {:class => "btnShow"}

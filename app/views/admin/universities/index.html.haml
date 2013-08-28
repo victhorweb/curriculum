@@ -1,0 +1,27 @@
+%h1 Listando universidade
+%table
+  %tr
+    %th Nome
+    %th Estado
+    %th Cidade
+    %th Telefone
+    %th Endereço
+    %th Bairro
+    %th Cep
+    %th
+    %th
+    %th
+  - @universities.each do |university|
+    %tr
+      %td= university.name
+      %td= university.state_id
+      %td= university.city_id
+      %td= university.phone
+      %td= university.address
+      %td= university.district
+      %td= university.zip_code
+      %td= link_to 'Ver mais', university
+      %td= link_to 'Editar', edit_university_path(university)
+      %td= link_to 'Deletar', university, method: :delete, data: { confirm: 'tem certeza?' }
+%br/
+= link_to 'nova Universidade', "universities/new"

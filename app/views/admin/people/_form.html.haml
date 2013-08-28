@@ -1,0 +1,78 @@
+- if @person.errors.any?
+  #error_explanation
+    %h2
+      = pluralize(@person.errors.count, "error")
+      prohibited this person from being saved:
+    %ul
+      - @person.errors.full_messages.each do |msg|
+        %li= msg
+.field
+  = f.label :Nome
+  %br
+  = f.text_field :name
+.field
+  = f.label :Telefone
+  %br
+  = f.text_field :phone
+.field
+  = f.label :'Celular'
+  %br
+  = f.text_field :mobile_phone
+.field
+  = f.label :Semestre
+  %br
+  = f.text_field :semester
+.field
+  = f.label :Universidade
+  %br
+  = f.select :university_id, @university
+.field
+  = f.label :Stado
+  %br
+  = f.select :state_id, @states
+.field
+  = f.label :Cidade
+  %br
+  = f.select :city_id, @city
+.field
+  = f.label :Curso
+  %br
+  = f.select :course_id, @course
+.field
+  = label_tag :'Está trabalhando?'
+  %br
+  = check_box_tag :work, true, @person.work
+.field
+  = f.label :'Contato por video conferencia'
+  %br
+  = f.text_field :video_conf
+.field
+  = f.label :Setor
+  %br
+  = f.select :sector_id, @sector
+.field
+  =f.label :'Experiências Proficionais na area'
+  %br
+  =f.text_area :curriculum
+.field
+  = f.label :'Foto pessoal'
+  %br
+  = f.file_field :image
+.field
+  = f.label :'E-mail'
+  %br
+  = f.text_field :email
+.field
+  = f.label :'link do facebook'
+  %br/
+  = f.text_field :facebook
+.field
+  = f.label :Senha
+  %br
+  = f.password_field :plain_password
+.field
+  = f.label :'Data de nascimento'
+  %br
+  = f.date_select :born_at, start_year: Date.today.year-100, end_year: Date.today.year-15
+.actions
+  %input{:type => "submit", :value => "Salvar"}

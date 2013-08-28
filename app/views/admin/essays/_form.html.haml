@@ -1,0 +1,26 @@
+- if @essay.errors.any?
+  #error_explanation
+    %h2
+      = pluralize(@essay.errors.count, "error")
+      proibido salvar:
+    %ul
+      - @essay.errors.full_messages.each do |msg|
+        %li= msg
+.field
+  = f.label :Pergunta
+  %br/
+  = f.text_field :question
+.field
+  = f.label :Habilidade
+  %br/
+  = f.select :skill_id, @skills
+.field
+  = f.label :'Nivel de dificuldade'
+  %br/
+  = f.select :level_id, @levels
+.field
+  = f.label :'Resposta possivel'
+  %br/
+  = f.text_field :reply
+.actions
+  = f.submit

@@ -1,0 +1,17 @@
+%h1 Lista de setores
+%table
+  %tr
+    %th Name
+    %th Descrição
+    %th
+    %th
+    %th
+  - @sectors.each do |sector|
+    %tr
+      %td= sector.name
+      %td= sector.description
+      %td= link_to 'Ver mais', sector
+      %td= link_to 'Editar', edit_sector_path(sector)
+      %td= link_to 'Deletar', sector, method: :delete, data: { confirm: 'Tem certeza?' }
+%br/
+= link_to 'New Sector',"sectors/new"

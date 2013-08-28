@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130802150512) do
+ActiveRecord::Schema.define(:version => 20140513311118) do
+
+  create_table "avaliables", :force => true do |t|
+    t.integer  "person_id"
+    t.integer  "skill_id"
+    t.integer  "level_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.integer  "vacant_id"
+  end
 
   create_table "cities", :id => false, :force => true do |t|
     t.integer "id",                                      :null => false
@@ -22,6 +31,14 @@ ActiveRecord::Schema.define(:version => 20130802150512) do
 
   add_index "cities", ["id"], :name => "id", :unique => true
   add_index "cities", ["id"], :name => "id_2"
+
+  create_table "corrections", :force => true do |t|
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+    t.integer  "avaliable_id",               :null => false
+    t.integer  "number",                     :null => false
+    t.string   "validing",     :limit => 30, :null => false
+  end
 
   create_table "courses", :force => true do |t|
     t.string   "name"
@@ -37,6 +54,14 @@ ActiveRecord::Schema.define(:version => 20130802150512) do
     t.string   "reply"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "inscritions", :force => true do |t|
+    t.integer  "person_id"
+    t.integer  "vacant_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.integer  "status_id"
   end
 
   create_table "levels", :force => true do |t|
@@ -57,17 +82,30 @@ ActiveRecord::Schema.define(:version => 20130802150512) do
     t.integer  "city_id"
     t.boolean  "work"
     t.string   "video_conf"
-    t.string   "curriculum"
+    t.string   "curriculum",              :limit => 1000
     t.integer  "sector_id"
     t.string   "image"
     t.string   "email"
     t.date     "born_at"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
     t.string   "password"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+    t.string   "curriculum_file_name"
+    t.string   "curriculum_content_type"
+    t.integer  "curriculum_file_size"
+    t.datetime "curriculum_updated_at"
+    t.string   "facebook"
   end
 
   create_table "person_questions", :force => true do |t|
+    t.integer  "person_id"
+    t.integer  "essay_id"
+    t.integer  "vacant_id"
+    t.string   "replay"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -94,11 +132,18 @@ ActiveRecord::Schema.define(:version => 20130802150512) do
     t.integer  "sector_id"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.float    "score"
   end
 
   create_table "states", :force => true do |t|
     t.string "uf",   :limit => 10, :default => "", :null => false
     t.string "name", :limit => 20, :default => "", :null => false
+  end
+
+  create_table "statuses", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "universities", :force => true do |t|
@@ -125,8 +170,12 @@ ActiveRecord::Schema.define(:version => 20130802150512) do
     t.string   "description"
     t.date     "date_end"
     t.integer  "sector_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
 end

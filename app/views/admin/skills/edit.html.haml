@@ -1,0 +1,3 @@
+%h1 Editando habilidades
+= form_for(@skill , url: admin_skill_path(@skill.id)) do |f|
+  = render partial: 'form', locals: { f: f }

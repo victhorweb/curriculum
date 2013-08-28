@@ -1,0 +1,24 @@
+%h1 Cadastro de dados principais
+%table
+  %tr
+    %th Nome
+    %th Telefone
+    %th Celular
+    %th Universidade
+    %th Curso
+    %th Estado
+    %th Cidade
+    %th
+    %th
+    %th
+  %tr
+    %td= @person.name
+    %td= @person.phone
+    %td= @person.mobile_phone
+    %td= @person.university_id
+    %td= @person.course.name
+    %td= @person.city.state.name
+    %td= @person.city.name
+    %td= link_to 'Show', @person
+    %td= link_to 'Edit', edit_person_path(@person)
+%br/

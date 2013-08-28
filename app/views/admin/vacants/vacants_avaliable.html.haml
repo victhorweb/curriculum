@@ -1,0 +1,20 @@
+%h1 Lista de vagas
+%table
+  %tr
+    %th Titulo
+    %th Descrição
+    %th Data para o termino
+    %th Setor
+    %th
+    %th
+    %th
+  - @vacants.each do |vacant|
+    %tr
+      %td= vacant.title
+      %td= vacant.description
+      %td= vacant.date_end
+      %td= vacant.sector_id
+      %td= link_to 'show', vacant
+      %td Inscreva-se
+      %td
+%br

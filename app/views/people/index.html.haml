@@ -1,0 +1,29 @@
+%h1 Lista de curriculum
+%table{:width => "800"}
+  %tr
+    %th Name
+    %th Telefone
+    %th Celular
+    %th Universidade
+    %th Curso
+    %th Estado
+    %th Cidade
+    %th
+    %th
+    %th
+  - @people.each do |person|
+    %tr
+      %td{:width => "400"}= person.name
+      %td{:width => "150"}= person.phone
+      %td{:width => "150"}= person.mobile_phone
+      %td= person.university.name
+      %td= person.course.name
+      %td= person.city.uf
+      %td= person.city.name
+      %td{:width => "100"}= link_to 'Ver mais', "/admin/people/#{person.id}" ,{:class => "btnShow"}
+      %td= link_to 'Editar', "/admin/people/#{person.id}/edit", {:class => "btnEdit"}
+      %td
+        .btnDelet
+          = link_to 'Deletar', "/admin/people/#{person.id}",  method: :delete, data: { confirm: 'Tem certeza?'}
+%br/
+= link_to 'Criar novo Curriculum', "/admin/people/new" , {:class => "btnSave"}

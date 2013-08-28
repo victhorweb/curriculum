@@ -1,0 +1,3 @@
+%h1 Editando questão
+= form_for(@essay , url:  admin_essay_path(@essay.id)) do |f|
+  = render partial: 'form', locals: { f: f }

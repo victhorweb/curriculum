@@ -1,0 +1,29 @@
+!!! html5
+%html
+  %title Projeto Curriculo
+  =stylesheet_link_tag "application", :media=>"all"
+  =javascript_include_tag "application"
+  =csrf_meta_tags
+  %header
+  %body
+    .all
+      .body
+        .header
+          = image_tag('imgHeader.png')
+        .menu
+          = image_tag("home.png")
+          %li= link_to "Inicial", "/"
+          %li= link_to "Todas as vagas", "/"
+          -if session[:id].nil?
+            %li= link_to "Login", "/autenticar"
+          -else
+            %li= link_to "Logout", "/login/logout"
+          %li= link_to "Cadastro", "/cadastro"
+          %li= link_to "O projeto", "http://bit.ly/18iT846", target: "_blank"
+
+
+        .center
+          .center_itens
+            =yield
+        .footer
+          = image_tag('ImgFooter.jpg')

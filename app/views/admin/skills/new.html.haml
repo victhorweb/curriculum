@@ -1,0 +1,3 @@
+%h1 Nova habilidade
+= form_for(@skill , url: admin_skills_path) do |f|
+  = render partial: 'form', locals: { f: f }

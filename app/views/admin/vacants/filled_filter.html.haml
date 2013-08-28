@@ -1,0 +1,43 @@
+%h1
+  Filtro de pesquisa
+.optionStatus
+  =form_tag("/admin/people/status") do
+    %span
+      Status:
+    %select{name: "status" , id: "status"}
+      -@status.each do |statu|
+        %option{value: "#{statu.id}"}
+          =statu.name
+
+    %span
+      Setor:
+    %select{name: "status" , id: "status"}
+      -@sectors.each do |sector|
+        %option{value: "#{sector.id}"}
+          =sector.name
+
+    %span
+      Vagas:
+    %select{name: "status" , id: "status"}
+      -@vacants.each do |vacant|
+        %option{value: "#{vacant.id}"}
+          =vacant.title
+    %input{:type => "submit", :value => "Pesquisar"}
+
+-@inscritions.each do |inscrition|
+  .personAdmin
+    .photoPersonAdmin
+      =image_tag inscrition.person.image.url(:thumb)
+    %p
+      Nome:
+      =inscrition.person.name
+      %br
+      Telefone:
+      =inscrition.person.phone
+      %br
+      Curso:
+      =inscrition.person.course.name
+      %br
+      Status:
+      =inscrition.status.name
+    = link_to 'Ver mais', "/admin/people/#{inscrition.person_id}" , {:class => "btnShow"}

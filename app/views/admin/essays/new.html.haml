@@ -1,0 +1,3 @@
+%h1 Nova Questão
+= form_for(@essay , url: "/admin/essays/") do |f|
+  = render partial: 'form', locals: { f: f }

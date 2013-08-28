@@ -4,7 +4,7 @@ class University < ActiveRecord::Base
 
   validates :name, presence: true
   validates :state_id, presence: true
-  validates :phone, presence: true, 
+  validates :phone, presence: true,
             format: {with:/^\(\d{2}\)\d{4}-\d{4}$/}
   validates :address, presence:true
   validates_length_of :address,maximum:200
@@ -12,10 +12,9 @@ class University < ActiveRecord::Base
   validates :district, presence:true
   validates :zip_code, presence: true,
             format: {with:/^\d{5}-\d{3}$/}
- 
+
  def self.for_select
     self.all.map {|p| [p.name,p.id]}.sort
-  
-  end
+ end
 
 end

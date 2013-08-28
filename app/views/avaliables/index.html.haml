@@ -1,0 +1,18 @@
+%h1
+  Questões
+-contador = 1
+.bodyavaliation
+  =form_tag('/avaliable/finalization') do
+    .question
+      -@testes.each do |teste|
+        =contador
+        )
+        =teste.question
+        %br
+        -contador = contador + 1
+        %textarea#replay{:name => "replay[#{teste.id}]"}
+        %br
+
+    %input{:type => "submit", :value => "Concluir avaliação"}
+
+

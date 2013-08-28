@@ -1,0 +1,12 @@
+.login
+  %h1 Autenticação no sistema
+  %p#notice= notice
+  = form_tag "/admin/login/login" do
+    %p
+      %label{:for => "email"} E-mail
+      %input#email{:name => "email", :type => "text"}
+    %p
+      %label{:for => "password"} Senha
+      %input#password{:name => "password", :type => "password"}
+    %p
+      %input{:type => "submit", :value => "Autenticar"}

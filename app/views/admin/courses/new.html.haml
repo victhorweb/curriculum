@@ -1,0 +1,3 @@
+%h1 Novo curso
+= form_for(@course , url: "/admin/courses/") do |f|
+  = render partial: 'form', locals: { f: f }

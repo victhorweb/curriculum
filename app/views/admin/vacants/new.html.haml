@@ -1,0 +1,3 @@
+%h1 Nova Vaga
+= form_for(@vacant , url: "/admin/vacants" )do |f|
+  = render partial: 'form', locals: { f: f }

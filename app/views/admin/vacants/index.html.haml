@@ -1,0 +1,22 @@
+%h1 Listar Vagas de emprego/estágio
+%table
+  %tr
+    %th Título
+    %th Descrição
+    %th Data para termino
+    %th Setor
+    %th
+    %th
+    %th
+  - @vacants.each do |vacant|
+    %tr
+      %td= vacant.title
+      %td= vacant.description
+      %td= vacant.date_end
+      %td= vacant.sector.name
+      %td= link_to 'Ver mais', "/admin/vacants/#{vacant.id}" , {:class => "btnShow"}
+      %td= link_to 'Editar', "/admin/vacants/#{vacant.id}/edit",  {:class => "btnEdit"}
+      %td
+        = button_to 'Deletar',"/admin/vacants/#{vacant.id}", method: :delete, data: { confirm: 'Tem certeza?' }
+%br/
+= link_to 'Nova Vaga', "vacants/new",   {:class => "btnSave"}

@@ -1,0 +1,13 @@
+%h1 Autenticação no sistema
+%p#notice= notice
+= form_tag "/autenticar/login" do
+  %p
+    %label{:for => "email"} E-mail
+    %input#email{:name => "email", :type => "text"}/
+  %p
+    %label{:for => "password"} Senha
+    %input#password{:name => "password", :type => "password"}/
+  %p
+    %input{:type => "submit", :value => "Autenticar"}/
+
+    %a{:href => "/people/new" ,class: 'btnShow'} Click aqui para se cadastrar

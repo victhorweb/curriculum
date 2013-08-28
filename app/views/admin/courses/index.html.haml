@@ -1,0 +1,17 @@
+%h1 Lista de cursos
+%table
+  %tr
+    %th Name
+    %th Descrição
+    %th
+    %th
+    %th
+  - @courses.each do |course|
+    %tr
+      %td= course.name
+      %td= course.description
+      %td= link_to 'Ver mais', "/admin/courses/#{course.id}" , class: 'btnShow'
+      %td= link_to 'Editar', "/admin/courses/#{course.id}/edit", class: 'btnEdit'
+      %td= button_to 'Deletar', "/admin/courses/#{course.id}", method: :delete, data: { confirm: 'Tem certeza?' }
+%br
+= link_to 'novo Curso', "courses/new" ,class: 'btnSave'

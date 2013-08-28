@@ -1,0 +1,23 @@
+%h1
+  Lista de vagas
+-@vacants.each do |vacant|
+  .vacants
+    .title
+      %li
+        =vacant.title
+    .thumb
+      =image_tag vacant.image.url(:thumb)
+    .description
+      %h5
+        =vacant.description
+        %br
+        data para o termino
+        %br
+        =vacant.date_end
+        %br
+    .inscrition
+      %h4
+        = link_to 'Inscreva-se', "/SkillLevel/inscrition/#{vacant.id}"
+
+
+

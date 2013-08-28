@@ -1,5 +1,4 @@
 class LoginController < ApplicationController
- layout "pub"
 
   def login
 	if request.post?
@@ -30,13 +29,13 @@ class LoginController < ApplicationController
     flash[:notice] = "Bem-vindo!"
     session[:id] = user.id
     session[:email] = user.email
-    redirect_to "/vacants/vacant_avaliable/"
+    redirect_to "/vacants/avaliable/"
     end
   end
   def logout
   	session[:id] = nil
 	session[:name] = nil
-	redirect_to :action=>:login
+	redirect_to '/vacants'
   end
 
 end

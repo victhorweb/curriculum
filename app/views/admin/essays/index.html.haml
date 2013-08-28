@@ -1,0 +1,22 @@
+%h1 Lista de perguntas
+%table{:width => "800"}
+  %tr
+    %th Question
+    %th Habilidade
+    %th Nível
+    %th Resposta
+    %th
+    %th
+    %th
+  - @essays.each do |essay|
+    %tr
+      %td{:width => "400"}= essay.question
+      %td= essay.skill.name
+      %td= essay.level.name
+      %td= essay.reply
+      %td{:width => "70"}= link_to 'Ver mais', "/admin/essays/#{essay.id}",   {:class => "btnShow"}
+      %td= link_to 'Editar', "/admin/essays/#{essay.id}/edit",   {:class => "btnEdit"}
+      %td
+        = button_to 'Deletar', "/admin/essays/#{essay.id}/" ,  method: :delete, data: { confirm: 'Tem certeza?' }
+%br/
+= link_to 'Criar nova questão', "/admin/essays/new",   {:class => "btnSave "}

@@ -1,0 +1,26 @@
+- if @skill.errors.any?
+  #error_explanation
+    %h2
+      = pluralize(@skill.errors.count, "error")
+      PROIBIDO SALVAR
+    %ul
+      - @skill.errors.full_messages.each do |msg|
+        %li= msg
+.field
+  = f.label :nome
+  %br/
+  = f.text_field :name
+.field
+  = f.label :Descrição
+  %br/
+  = f.text_field :description
+.field
+  = f.label :Score
+  %br/
+  = f.text_field :score
+.field
+  = f.label :Setor
+  %br/
+  = f.select :sector_id, @sector
+.actions
+  = f.submit

@@ -1,0 +1,13 @@
+%h1 Listar Usuário
+%table
+  %tr
+    %th Email
+    %th
+    %th
+  - @users.each do |user|
+    %tr
+      %td= user.email
+      %td= link_to 'Ver mais', "/admin/users/1", {:class => "btnShow"}
+      %td= link_to 'Editar', "/admin/users/#{user.id}/edit/" , {:class => "btnEdit"}
+%br/
+= link_to "Novo Adm", "/admin/users/new",  {:class => "btnSave"}

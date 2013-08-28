@@ -1,0 +1,16 @@
+%h1 Listando nivel
+%table
+  %tr
+    %th Nome
+    %th
+    %th
+    %th
+  - @levels.each do |level|
+    %tr
+      %td= level.name
+      %td= link_to 'Ver mais', "/admin/levels/#{level.id}" ,   {:class => "btnShow"}
+      %td= link_to 'Editar', "/admin/levels/#{level.id}/edit",   {:class => "btnEdit"}
+      %td
+        = button_to 'Deletar', "/admin/levels/#{level.id}", method: :delete, data: { confirm: 'Tem certeza?' }
+%br/
+= link_to 'New Level', "levels/new",   {:class => "btnSave"}

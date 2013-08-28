@@ -1,0 +1,115 @@
+-@avaliable=0
+.imagePersonShow
+  =image_tag @person.image.url
+
+.dados
+
+  %p
+    %b Nome:
+    = @person.name
+  %p
+    %b Telefone:
+    = @person.phone
+  %p
+    %b Celular:
+    = @person.mobile_phone
+  %p
+    %b Universidade:
+    = @person.university.name
+  %p
+    %b Curso:
+    = @person.course.name
+
+.persongrafic
+  %p
+    %b State:
+    = @person.city.uf
+  %b Cidade:
+  = @person.city.name
+  %p
+    %b Contato por video-conferencia:
+    = @person.video_conf
+  %p
+    Experiências proficionais:
+    %br
+    =@person.curriculum
+  %p
+  %p
+    O candidato se diz:
+  -@avaliable = []
+  - @person_avaliable.each do |avaliable|
+    -@avaliable << avaliable.id
+    = avaliable.skill.name+" : "
+    %strong
+      = avaliable.level.name
+      %br
+
+  = link_to "facebook", @person.facebook, {:class => "btnFacebook",:target => "_blank"}
+  = link_to 'Editar', "/admin/people/#{@person.id}/edit", {:class => "btnEdit"}
+
+.avaliable
+  - @person_inscritions.each do |avaliable|
+    %h2
+      Vaga preenchida:
+      %strong
+        = avaliable.vacant.title
+    Avaliação:
+    .optionStatus
+    =form_tag("/admin/people/status") do
+      %span
+        Status:
+      %select{name: "status" , id: "status"}
+        -@status.each do |s|
+          -if avaliable.status_id == s.id
+            %option{:selected => "",value: "#{s.id}|#{@person.id}|#{avaliable.vacant_id}"}
+              =s.name
+          -else
+            %option{value: "#{s.id}|#{@person.id}|#{avaliable.vacant_id}"}
+              =s.name
+
+      %input{:type => "submit", :value => "Alterar status"}
+
+    %p
+    =form_tag("/admin/people/avaliable", :method=>'post') do
+      - contador = 0
+      - @person_questions.each do |question|
+        - contador = contador +1
+        .questionperson
+          %br
+          = contador
+          )
+          = question.essay.question
+          %br
+          %span
+            Resposta entrevistado:
+            %STRONG
+              = question.replay
+          %br
+          %span
+            Resposta correta:
+            %STRONG
+              .truequestion
+                = question.essay.reply
+            .checkquestion
+              %span
+                Habilidade:
+              =question.essay.skill.name+"  "
+              -@countador = 0
+              -@person_correction.each do |correct|
+                -if correct.avaliable.id==@avaliable && correct.validing== "true" &&
+                  %input{:checked => "checked",:name => "skills[#{@avaliable[@countador]}][#{contador}]", :type => "radio", value: "true"}
+                  %span
+                    Correto
+                  %input{:name => "skills[#{@avaliable[@countador]}][#{contador}]", :type => "radio", value: "false"}
+                  %span
+                    Falso
+                -else
+                  %input{:name => "skills[#{@avaliable[@countador]}][#{contador}]", :type => "radio", value: "true"}
+                  %span
+                    Correto
+                  %input{:checked => "checked",:name => "skills[#{@avaliable[@countador]}][#{contador}]", :type => "radio", value: "true"}
+                  %span
+                    Falso
+
+                -break
+      %input{:type => "submit", :value => "Avaliar"}

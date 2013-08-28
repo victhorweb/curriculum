@@ -1,0 +1,16 @@
+%h1 Habilidades para essa vaga
+%h3
+  preencha o formulario com as habilidades e o
+  nível que esta disposto a exercer
+%h4
+  Somente os níveis com questões presentes aparecem para o cadastro
+= form_tag('/avaliable') do
+  - @skills.each do |skill|
+    %br
+    %strong= skill.name
+    %br
+    - @levels.each do |level|
+      %input{:name => "skills[#{skill.id}]", :type => "radio", :value => " #{level.id}"}
+        = level.name
+  %br
+  %input{:type => "submit", :value => "Continuar"}/

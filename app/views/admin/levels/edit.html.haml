@@ -1,0 +1,3 @@
+%h1 Editando Nível
+= form_for(@level , url: admin_level_path(@level.id)) do |f|
+  = render partial: 'form', locals: { f: f }

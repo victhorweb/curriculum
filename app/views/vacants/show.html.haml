@@ -1,0 +1,21 @@
+%p#notice= notice
+%p
+  %b Tí tulo
+  = @vacant.title
+%p
+  %b Descrição:
+  = @vacant.description
+%p
+  %b Data para o termino:
+  = @vacant.date_end
+%p
+  %b Setor:
+  = @vacant.sector.name
+%p
+  Habilidades para essa vaga
+  - @vacant.sector.skills.each  do |f|
+    %br
+    %strong
+      = f.name
+      - #{f.description}
+= link_to 'Voltar', "/vacants/avaliable/",class: 'btnShow'

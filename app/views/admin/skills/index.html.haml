@@ -1,0 +1,20 @@
+%h1 Lista de habilidades
+%table
+  %tr
+    %th Nome
+    %th Descrição
+    %th Setor
+    %th
+    %th
+    %th
+  - @skills.each do |skill|
+    %tr
+      %td= skill.name
+      %td= skill.description
+      %td= skill.sector.name
+      %td= link_to 'Ver mais', "/admin/skills/#{skill.id}",   {:class => "btnShow"}
+      %td= link_to 'Editar', "/admin/skills/#{skill.id}/edit",   {:class => "btnEdit"}
+      %td
+        = button_to 'Deletar', "/admin/skills/#{skill.id}",   method: :delete, data: { confirm: 'Tem certeza?' }
+%br/
+= link_to 'Nova Habilidade', "skills/new" ,   {:class => "btnSave"}

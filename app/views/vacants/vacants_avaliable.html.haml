@@ -1,0 +1,20 @@
+%h1 Lista de vagas
+%h4 Aqui esta uma lista de vagas aque combinam melhor com o perfil cadastrado
+%table
+  %tr
+    %th Titulo
+    %th Descrição
+    %th Data para o termino
+    %th Setor
+    %th
+    %th
+  - @vacants.each do |vacant|
+    %tr
+      %td= vacant.title
+      %td= vacant.description
+      %td= vacant.date_end
+      %td= vacant.sector.name
+      %td= link_to 'Ver mais', "/vacants/show/#{vacant.id}", class: 'btnShow'
+      %td= link_to 'Inscreva-se', show_inscrition_path(vacant.id), class: 'btnSave'
+
+%br/

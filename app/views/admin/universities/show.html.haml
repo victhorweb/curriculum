@@ -1,0 +1,25 @@
+%p#notice= notice
+%p
+  %b Nome:
+  = @university.name
+%p
+  %b Estado:
+  = @university.state_id
+%p
+  %b Cidade:
+  = @university.city_id
+%p
+  %b Telefone:
+  = @university.phone
+%p
+  %b Endereço:
+  = @university.address
+%p
+  %b Bairro:
+  = @university.district
+%p
+  %b Cep:
+  = @university.zip_code
+= link_to 'Edit', edit_university_path(@university)
+|
+#{link_to 'Back', universities_path}
