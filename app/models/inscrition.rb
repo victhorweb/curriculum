@@ -1,6 +1,10 @@
 class Inscrition < ActiveRecord::Base
   attr_accessible :person_id, :vacant_id, :status_id
 
+  validates :person_id, presence: true
+  validates :vacant_id, presence: true
+  validates :status_id, presence: true
+
   belongs_to :person
   belongs_to :vacant
   belongs_to :status

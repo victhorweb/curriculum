@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140513311118) do
+ActiveRecord::Schema.define(:version => 20140513311121) do
 
   create_table "avaliables", :force => true do |t|
     t.integer  "person_id"
@@ -33,11 +33,11 @@ ActiveRecord::Schema.define(:version => 20140513311118) do
   add_index "cities", ["id"], :name => "id_2"
 
   create_table "corrections", :force => true do |t|
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
-    t.integer  "avaliable_id",               :null => false
-    t.integer  "number",                     :null => false
-    t.string   "validing",     :limit => 30, :null => false
+    t.datetime "created_at",                       :null => false
+    t.datetime "updated_at",                       :null => false
+    t.integer  "number",                           :null => false
+    t.string   "validing",           :limit => 30, :null => false
+    t.integer  "person_question_id"
   end
 
   create_table "courses", :force => true do |t|

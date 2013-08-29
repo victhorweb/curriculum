@@ -1,4 +1,6 @@
+#encoding: utf-8
 class EssaysController < ApplicationController
+
   before_filter :logged?
 
   def index
@@ -19,14 +21,11 @@ class EssaysController < ApplicationController
 
   def create
     @essay = Essay.new(params[:essay])
-
     respond_to do |format|
       if @essay.save
         format.html { redirect_to @essay, notice: 'Questão criada com sucesso.' }
-        format.json { render json: @essay, status: :created, location: @essay }
       else
         format.html { render action: "Novo" }
-        format.json { render json: @essay.errors, status: :unprocessable_entity }
       end
     end
   end

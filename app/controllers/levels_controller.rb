@@ -1,3 +1,4 @@
+#encoding: utf-8
 class LevelsController < ApplicationController
   before_filter :logged?
 

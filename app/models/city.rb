@@ -3,6 +3,10 @@ class City < ActiveRecord::Base
 
   attr_accessible :name, :uf, :state_id
 
+  validates :name, presence: true
+  validates :uf, presence: true
+  validates :state_id, presence: true
+
   belongs_to :state
 
   has_many :people

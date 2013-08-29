@@ -3,6 +3,9 @@ class States < ActiveRecord::Base
 
    attr_accessible :name, :uf
 
+   validates :name, presence: true
+   validates :uf, presence: true
+
    has_many :cities
    has_many :peple
 

@@ -5,10 +5,11 @@ gem 'haml'
 
 gem 'rspec-rails', :group =>[:test, :development]
 gem 'mysql2'
+
 group :test do
-	gem 'factory_girl_rails'
-	gem "capybara"
-	gem "guard-rspec"
+  gem 'factory_girl_rails'
+  gem "capybara"
+  gem "guard-rspec"
 end
 
 group :assets do

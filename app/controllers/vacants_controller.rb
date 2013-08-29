@@ -1,3 +1,4 @@
+#encoding: utf-8
 class VacantsController < ApplicationController
   def index
     @vacants = Vacant.all

@@ -1,3 +1,4 @@
+#encoding: utf-8
 class PeopleController < ApplicationController
    before_filter :load_states,:load_cities,:load_university,:load_course,:load_sectors, only: [:new,:create,:edit,:update]
    layout 'pub'

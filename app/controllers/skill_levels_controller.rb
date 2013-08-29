@@ -1,3 +1,4 @@
+#encoding: utf-8
 class SkillLevelsController < ApplicationController
   before_filter :logged?
   layout "pub"

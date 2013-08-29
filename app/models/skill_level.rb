@@ -2,6 +2,11 @@
 class SkillLevel < ActiveRecord::Base
    attr_accessible :person_id, :skill_id, :level_id,:vacant_id
 
+    validates :person_id, presence: true
+    validates :skill_id, presence: true
+    validates :level_id, presence: true
+    validates :vacant_id, presence: true
+
    belongs_to :person
    belongs_to :skill
    belongs_to :level

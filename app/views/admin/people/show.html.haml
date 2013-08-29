@@ -1,9 +1,7 @@
--@avaliable=0
 .imagePersonShow
-  =image_tag @person.image.url
+  =image_tag @person.image.url(:medium)
 
 .dados
-
   %p
     %b Nome:
     = @person.name
@@ -34,11 +32,8 @@
     %br
     =@person.curriculum
   %p
-  %p
     O candidato se diz:
-  -@avaliable = []
   - @person_avaliable.each do |avaliable|
-    -@avaliable << avaliable.id
     = avaliable.skill.name+" : "
     %strong
       = avaliable.level.name
@@ -95,21 +90,19 @@
                 Habilidade:
               =question.essay.skill.name+"  "
               -@countador = 0
-              -@person_correction.each do |correct|
-                -if correct.avaliable.id==@avaliable && correct.validing== "true" &&
-                  %input{:checked => "checked",:name => "skills[#{@avaliable[@countador]}][#{contador}]", :type => "radio", value: "true"}
-                  %span
-                    Correto
-                  %input{:name => "skills[#{@avaliable[@countador]}][#{contador}]", :type => "radio", value: "false"}
-                  %span
-                    Falso
-                -else
-                  %input{:name => "skills[#{@avaliable[@countador]}][#{contador}]", :type => "radio", value: "true"}
-                  %span
-                    Correto
-                  %input{:checked => "checked",:name => "skills[#{@avaliable[@countador]}][#{contador}]", :type => "radio", value: "true"}
-                  %span
-                    Falso
+            -if @person_correction.where(person_question_id: question.id).first.validing == 'true'
+              %input{:checked => "checked",:name => "skills[#{question.id}][#{contador}]", :type => "radio", value: "true"}
+              %span
+                Correto
+              %input{:name => "skills[#{question.id}][#{contador}]", :type => "radio", value: "false"}
+              %span
+                Falso
+            -else
+              %input{:name => "skills[#{question.id}][#{contador}]", :type => "radio", value: "true"}
+              %span
+                Correto
+              %input{:checked => "checked",:name => "skills[#{question.id}][#{contador}]", :type => "radio", value: "false"}
+              %span
+                Falso
 
-                -break
       %input{:type => "submit", :value => "Avaliar"}

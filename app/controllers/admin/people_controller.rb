@@ -4,21 +4,13 @@ class Admin::PeopleController < ApplicationController
    layout 'application'
 
   def avaliable
-    params[:skills].each do |avaliable, number|
+    params[:skills].each do |question, number|
       number.each do |valid|
-
-        if Correction.where(avaliable_id: avaliable).first.avaliable_id
-          @correction = Correction.where(avaliable_id: avaliable).first
-          @correction.update_attributes(avaliable_id: avaliable, number: valid[0].to_i, validing:  valid[1].to_s)
-
-        else
-          @correction = Correction.new(avaliable_id: avaliable, number: valid[0].to_i, validing:  valid[1].to_s)
-          @correction.save
-
-        end
-       end
-     end
-      redirect_to "/admin/vacants/filled"
+      @correction = Correction.where(person_question_id: question).first
+      @correction.update_attributes(person_question_id: question, number: valid[0].to_i, validing:  valid[1].to_s)
+    end
+   end
+    redirect_to "/admin/vacants/filled"
   end
 
 
@@ -35,7 +27,7 @@ class Admin::PeopleController < ApplicationController
     @person_inscritions = Inscrition.where(person_id: @person.id).all
     @person_avaliable = Avaliable.where(person_id: @person.id).all
     @person_questions = PersonQuestion.where(person_id: @person.id).all
-    @person_correction = Person.find(params[:id]).corrections.all
+    @person_correction = Person.find(params[:id]).corrections
     @status = Status.all
   end
 
