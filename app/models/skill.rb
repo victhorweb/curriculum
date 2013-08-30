@@ -3,7 +3,6 @@ class Skill < ActiveRecord::Base
   validates :name ,presence: true
   validates :description ,presence: true
   validates :sector_id, presence: true
-  validates :score, presence: true
 
   belongs_to :sector
 

@@ -23,6 +23,6 @@ class Vacant < ActiveRecord::Base
   end
 
   def age_limit
-    errors.add(:date_end, I18n.t("activerecord.errors.date_end")) unless self.date_end > Date.today.year
+    errors.add(:date_end, I18n.t("activerecord.errors.date_end")) unless self.date_end >= Date.today
   end
 end

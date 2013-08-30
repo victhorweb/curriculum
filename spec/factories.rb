@@ -25,9 +25,9 @@ FactoryGirl.define do
     city_id 1
     work true
     video_conf 'victhor@victhor.com'
-    curriculum ' teste'
+    curriculum ' testebnv '
     sector_id 1
-    image File.new(Rails.root + 'spec/fixtures/images/img.jpg')
+    image_file_name File.new(Rails.root + 'spec/fixtures/images/img.jpg')
     email "victhor@victhor.com"
   end
 
@@ -47,5 +47,55 @@ FactoryGirl.define do
     name 'ruby'
     description 'ruby language'
     sector_id 1
+    score 0.to_f
   end
+
+  factory :person_question, class:PersonQuestion do
+    essay_id 1
+    person_id 1
+    replay 'exemplo'
+    vacant_id 1
+  end
+
+  factory :user, class:User do
+    email 'developer@developer.com'
+    password '123'
+  end
+
+  factory :status, class:User do
+    name 'som'
+    inscrition 1
+  end
+
+ factory :level, class:Level do
+    name 'som'
+    score 1
+  end
+
+ factory :inscrition, class:Inscrition do
+    person_id 1
+    vacant_id 1
+    status_id 1
+  end
+
+ factory :essay, class:Essay do
+    question "som"
+    skill_id 1
+    level_id 1
+    reply "som"
+  end
+
+  factory :correction, class:Correction do
+    validing "true"
+    number 1
+    person_question_id 1
+  end
+
+  factory :avaliable, class:Avaliable do
+    level_id 1
+    person_id 1
+    skill_id 1
+    vacant_id 1
+  end
+
 end
