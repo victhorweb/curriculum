@@ -10,7 +10,7 @@ FactoryGirl.define do
   end
 
   factory :courses, class:Course do
-    description 'engenhacao da computaria'
+    name 'engenhacao da computaria'
     description 'simplismente foda'
   end
 
@@ -27,13 +27,15 @@ FactoryGirl.define do
     video_conf 'victhor@victhor.com'
     curriculum ' testebnv '
     sector_id 1
+   # image 'testando.jpg'
     image_file_name File.new(Rails.root + 'spec/fixtures/images/img.jpg')
     email "victhor@victhor.com"
   end
 
-  factory :sectors, class:Course do
-    name 'eng. comp'
-    description 'very good'
+
+  factory :sector, class:Sector do
+    description "testado loucamente"
+    name "testando"
   end
 
   factory :vacant, class:Vacant do
@@ -62,9 +64,9 @@ FactoryGirl.define do
     password '123'
   end
 
-  factory :status, class:User do
+
+  factory :status, class:Status do
     name 'som'
-    inscrition 1
   end
 
  factory :level, class:Level do

@@ -3,11 +3,11 @@ class Person < ActiveRecord::Base
 
   attr_accessible :name, :phone, :mobile_phone, :semester, :work, :video_conf, :curriculum, :image, :email, :born_at, :plain_password
   attr_protected :password
-  attr_accessor :image_file_name
+  #attr_accessor :image_file_name
 
   has_attached_file :image,  :dependent => :destroy, :styles => { :medium => "300x300>", :thumb => "120x90#" }
 
-  validate :image, :unless => 'errors.any?'
+  #validate :image, :unless => 'errors.any?'
   validates :name, presence: true
   validates :phone, presence: true,
           format: {with:/^\(\d{2}\)\d{4}-\d{4}$/}
@@ -16,7 +16,7 @@ class Person < ActiveRecord::Base
   validates :semester, presence:true
   validates :video_conf, presence: true
   validates :curriculum, presence: true
-  validates :image, presence: true, format: {with:/(.*?)\.(jpg|jpeg|png|gif)$/}
+  #validates :image, presence: true, format: {with:/(.*?)\.(jpg|jpeg|png|gif)$/}
   validates :email, presence: true #, format: {with:/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4}  )$/}
 
   belongs_to :state

@@ -17,5 +17,7 @@ describe Correction do
     FactoryGirl.build(:correction, person_question_id: 'Engenharia da computacao').should be_valid
     FactoryGirl.build(:correction, person_question_id: "").should_not be_valid
     FactoryGirl.build(:correction, person_question_id: nil).should_not be_valid
+     # :level_id, :person_id, :skill_id, :vacant_id
   end
 end
+

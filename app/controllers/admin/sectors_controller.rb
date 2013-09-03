@@ -25,11 +25,11 @@ class Admin::SectorsController < ApplicationController
     @sector = Sector.new(params[:sector])
     respond_to do |format|
       if @sector.save
-        format.html { redirect_to @sector, notice: 'Setor criado com sucesso' }
-        format.json { render json: @sector, status: :created, location: @sector }
+        format.html { redirect_to '/admin/sectors', notice: 'Setor criado com sucesso' }
+
       else
         format.html { render action: "new" }
-        format.json { render json: @sector.errors, status: :unprocessable_entity }
+
       end
     end
   end
@@ -38,11 +38,9 @@ class Admin::SectorsController < ApplicationController
     @sector = Sector.find(params[:id])
     respond_to do |format|
       if @sector.update_attributes(params[:sector])
-        format.html { redirect_to @sector, notice: 'Setor Alterado com sucesso.' }
-        format.json { head :no_content }
+        format.html { redirect_to  '/admin/sectors', notice: 'Setor Alterado com sucesso.' }
       else
-        format.html { render action: "Editar" }
-        format.json { render json: @sector.errors, status: :unprocessable_entity }
+        format.html { render action: "edit" }
       end
     end
   end
@@ -51,7 +49,7 @@ class Admin::SectorsController < ApplicationController
     @sector = Sector.find(params[:id])
     @sector.destroy
     respond_to do |format|
-      format.html { redirect_to sectors_url }
+      format.html { redirect_to "/admin/sectors" }
       format.json { head :no_content }
     end
   end

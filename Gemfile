@@ -16,6 +16,9 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'therubyracer', :platforms => :ruby
+  gem 'compass-rails','~> 1.0.0.rc.2'
+  gem 'compass-colors'
+  gem 'sassy-buttons'
   gem 'uglifier', '>= 1.0.3'
 end
 

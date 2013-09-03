@@ -1,10 +1,8 @@
 class User < ActiveRecord::Base
-  attr_accessible :email, :password
+  attr_accessible :email, :plain_password
   attr_protected :password
 
   validates_uniqueness_of :email, presence: true
-  validates :password, presence: true
-  validates :email, presence: true
   validates :password, presence: true
 
   def plain_password=(password)

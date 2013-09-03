@@ -23,7 +23,7 @@ Curriculum::Application.routes.draw do
      resources :users
 
  namespace :admin do
-
+    get 'people/getcustomer/:id' => "people#getcustomer"
     post "/vacants/filled_filter" =>"vacants#filled_filter"
     get "vacants/filled" => "vacants#filled"
     get "vacants/vacant_avaliable" => "vacants#vacants_avaliable"

@@ -1,9 +1,19 @@
 //=require button
+@import "compass/css3/text-shadow"
+
 body
   font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif
   background-color: #000
 body.admin
   background-color: #fff
+
+.itemPeople
+  background: #FFF
+  width: 100%
+  height: 100%
+  display: inline-block
+  padding: 10px
+  border-radius: 10px
 
 .all
   width: 100%
@@ -12,7 +22,6 @@ body.admin
   no-repeat center top
   background-color: #000
   margin: 0 auto
-  min-height: 1100px
   background: url(image-path('body.jpg')) no-repeat center top
 
 .header
@@ -40,20 +49,20 @@ body.admin
   width: 843px
   heigth: 100%
   background-color: #000
-  display: block
+  display: inline-table
   background: url(image-path('background.jpg'))
   padding: 20px
   img
     margin-rigth: 7px
 
 .center_itens
-  wigth: 830px
-  background-color: #fff
-  padding: 7px
-  border-radius: 10px
-  heigth: 100%
-  min-heigth: 500px
-  display: inline-block
+  padding: 2px
+  width: 822px
+  h1
+    +text-shadow(rgba(black, .3) 3px 1px 0, rgba(black, .3) 2px 2px 0, rgba(black, .9) 3px 3px 0)
+    margin-top: -15px
+    color: #fff
+    height: 20px
 
 .footer
   margin-left: 11px
