@@ -1,5 +1,5 @@
 class City < ActiveRecord::Base
-  set_primary_key :id
+  self.primary_key = "id"
 
   attr_accessible :name, :uf, :state_id
 
