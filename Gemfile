@@ -5,6 +5,7 @@ gem 'haml'
 
 gem 'rspec-rails', :group =>[:test, :development]
 gem 'mysql2'
+gem 'sqlite3'
 
 group :test do
   gem 'factory_girl_rails'
