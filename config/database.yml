@@ -1,18 +1,18 @@
 development:
-  adapter: mysql2
-  database: curriculum_development
+  adapter: sqlite3
+  database: db/curriculum_development
   pool: 5
   reconnect: false
   encoding: utf8
-  username: root
-  password: bootcamp
+  #username: root
+  #password: bootcamp
 
 test:
-  adapter: mysql2
-  database: curriculum_test
+  adapter: sqlite3
+  database: db/curriculum_test
   pool: 5
   reconnect: false
   encoding: utf8
-  username: root
-  password: bootcamp
+  #username: root
+  #password: bootcamp
 
