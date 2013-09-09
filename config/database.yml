@@ -1,6 +1,6 @@
 development:
   adapter: sqlite3
-  database: db/curriculum_development
+  database: db/curriculum_development.sqlite3
   pool: 5
   reconnect: false
   encoding: utf8
@@ -9,7 +9,7 @@ development:
 
 test:
   adapter: sqlite3
-  database: db/curriculum_test
+  database: db/curriculum_test.sqlite3
   pool: 5
   reconnect: false
   encoding: utf8
