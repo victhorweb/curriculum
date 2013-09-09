@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe AvaliableController do
+describe AvaliablesController do
 
   describe "GET 'person_id:integer'" do
     it "returns http success" do
