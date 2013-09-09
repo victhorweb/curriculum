@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe CoursesController do
+describe Admin::CoursesController do
   describe "routing" do
 
     it "routes to #index" do

@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe SectorsController do
+describe Admin::SectorsController do
   describe "routing" do
 
     it "routes to #index" do
