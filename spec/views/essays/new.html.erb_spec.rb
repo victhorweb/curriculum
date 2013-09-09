@@ -4,8 +4,8 @@ describe "essays/new" do
   before(:each) do
     assign(:essay, stub_model(Essay,
       :question => "MyString",
-      :skill => 1,
-      :level => 1,
+      :skill_id => 1,
+      :level_id => 1,
       :reply => "MyString"
     ).as_new_record)
   end
